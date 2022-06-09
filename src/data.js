@@ -1,5 +1,6 @@
 //  icons
 import {
+  FiLinkedin,
   FiYoutube,
   FiInstagram,
   FiGithub,
@@ -10,163 +11,170 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
-} from 'react-icons/fi';
+  FiChrome,
+} from "react-icons/fi";
 
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
+import UpworkBrandIcon from "./assets/img/brands/upwork.png";
+import FiverBrandIcon from "./assets/img/brands/fiverr.png";
+import BehanceBrandIcon from "./assets/img/brands/behance.png";
+import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from "./assets/img/projects/p1.webp.png";
+import Project2 from "./assets/img/projects/p2.webp.png";
+import Project3 from "./assets/img/projects/p3.webp.png";
+import Project4 from "./assets/img/projects/p4.webp.png";
+import Project5 from "./assets/img/projects/p5.webp.png";
+import Project6 from "./assets/img/projects/p6.webp.png";
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg1 from "./assets/img/skills/html5.png";
+import SkillImg2 from "./assets/img/skills/css3.png";
+import SkillImg3 from "./assets/img/skills/js.png";
+import SkillImg4 from "./assets/img/skills/reactjs.png";
+import SkillImg5 from "./assets/img/skills/nextjs.png";
+import SkillImg6 from "./assets/img/skills/nodejs.png";
+import SkillImg7 from "./assets/img/skills/git.png";
+import SkillImg8 from "./assets/img/skills/figma.png";
 
 // testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+import TestiImage1 from "./assets/img/testimonials/testimonial-1.png";
+import TestiImage2 from "./assets/img/testimonials/testimonial-2.png";
+import TestiImage3 from "./assets/img/testimonials/testimonial-3.png";
 
 // navigation
 export const navigation = [
   {
-    name: 'home',
-    href: 'home',
+    name: "home",
+    href: "home",
   },
   {
-    name: 'about',
-    href: 'about',
+    name: "about",
+    href: "about",
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: "portfolio",
+    href: "portfolio",
   },
   {
-    name: 'services',
-    href: 'services',
+    name: "services",
+    href: "services",
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: "testimonials",
+    href: "testimonials",
   },
   {
-    name: 'contact',
-    href: 'contact',
+    name: "contact",
+    href: "contact",
   },
 ];
 
 // social
 export const social = [
+  // {
+  //   icon: <FiYoutube />,
+  //   href: '',
+  // },
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: "https://www.linkedin.com/in/shanjidarahmanmaria/",
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: "https://github.com/Maria-07",
   },
-  {
-    icon: <FiDribbble />,
-    href: '',
-  },
+  // {
+  //   icon: <FiMail />,
+  //   href: "",
+  // },
 ];
 
 // companies
 export const brands = [
   {
     img: FreelancerBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: UpworkBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: FiverBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: BehanceBrandIcon,
-    href: '',
+    href: "",
   },
   {
     img: DribbbleBrandIcon,
-    href: '',
+    href: "",
   },
 ];
 
 // projects
 export const projectsData = [
   {
-    id: '1',
+    id: "1",
     image: Project1,
-    name: 'project name 1',
-    category: 'UI/UX design',
+    name: "Axel Motors",
+    category: "Full Stack",
+    link: "https://alex-motors.web.app/",
   },
   {
-    id: '2',
+    id: "2",
     image: Project2,
-    name: 'project name 2',
-    category: 'web development',
+    name: "Spicy Velvet",
+    category: "Full Stack",
+    link: "https://spicy-velvet.web.app/",
   },
   {
-    id: '3',
+    id: "3",
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: "TouchIt",
+    category: "web development",
+    link: "https://touchit-tech.netlify.app/",
   },
   {
-    id: '4',
+    id: "4",
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: "Emma Watson",
+    category: "web development",
+    link: "https://emma-watson-16f05.web.app/",
   },
   {
-    id: '5',
+    id: "5",
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    name: "Bloom Beauty",
+    category: "web development",
+    link: "https://bloom-beauty.netlify.app/",
   },
   {
-    id: '6',
+    id: "6",
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: "Eden Spring Event",
+    category: "Web Design",
+    link: "https://eden-spring-event.netlify.app/",
   },
 ];
 
 // projects
 export const projectsNav = [
   {
-    name: 'all',
+    name: "all",
   },
   {
-    name: 'UI/UX Design',
+    name: "Full Stack",
   },
   {
-    name: 'web development',
+    name: "web development",
   },
   {
-    name: 'branding',
+    name: "Web Design",
   },
 ];
 
@@ -202,27 +210,27 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: "Web Design",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.",
   },
   {
-    icon: <FiSettings />,
-    name: 'Web Development',
+    icon: <FiChrome />,
+    name: "Web Development",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications.",
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: "React",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
   },
   {
     icon: <FiTag />,
-    name: 'SEO',
+    name: "Node",
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
   },
 ];
 
@@ -231,23 +239,22 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "“When you fulfill your dream one day, you will become other's dream”",
+    authorName: "Suga",
+    authorPosition: "rapper, songwriter and record producer, BTS",
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+      "“Everyone has a million dollar idea but not a million seconds to make it a reality. That’s why all these million dollar ideas fail. Only a very few of them becomes successful.”",
+    authorName: "Jhankar Mahbub",
+    authorPosition: "Senior web developer, CEO at Programming Hero",
   },
   {
     authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
+    authorText: "“There are no shortcuts to achieve your goal !”",
+    authorName: "Naruto Uzumaki",
+    authorPosition: "Hokage of Konoha-Leaf village",
   },
 ];
 
@@ -255,14 +262,14 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: "Have a question?",
+    subtitle: "I am here to help you.",
+    description: "Email me at hello@youremail.com",
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    title: "Current Location",
+    subtitle: "Bucharest, Romania",
+    description: "Serving clients worldwide",
   },
 ];

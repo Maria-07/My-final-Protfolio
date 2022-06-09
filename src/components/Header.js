@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 // import components
-import Logo from "../assets/img/logo-01.png";
+import Logo from "../assets/img/logo.png";
 import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import Socials from "./Socials";
@@ -23,9 +24,9 @@ const Header = () => {
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}
-        <a href="#">
+        <Link to={"/"}>
           <img src={Logo} className=" h-20" alt="" />
-        </a>
+        </Link>
         {/* nav */}
         <div className="hidden lg:block">
           <Nav />

@@ -11,7 +11,7 @@ const Hero = () => {
     >
       <div className="container mx-auto h-full">
         <div className="flex items-center h-full pt-8">
-          <div className="flex-1 flex flex-col items-center lg:items-start">
+          <div className="flex-1 flex flex-col  items-center lg:items-start">
             <p className="text-lg text-accent text-md mb-[22px]">
               Hey, I'm Shanjida Rahman Maria!
             </p>
@@ -24,7 +24,12 @@ const Hero = () => {
               creativity in the right ways.
             </p>
             <button className="btn btn-md bg-accent-hover hover:bg-accent hover:text-black md:btn-lg transition-all">
-              My Resume
+              <a
+                href="https://drive.google.com/file/d/1dOzINt66MP807SftEGz0W3DhsUjEquHp/view?usp=sharing"
+                download
+              >
+                My Resume
+              </a>
             </button>
           </div>
           <div className="hidden lg:flex flex-1 justify-end items-end h-full">

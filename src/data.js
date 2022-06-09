@@ -86,10 +86,10 @@ export const social = [
     icon: <FiGithub />,
     href: "https://github.com/Maria-07",
   },
-  // {
-  //   icon: <FiMail />,
-  //   href: "",
-  // },
+  {
+    icon: <FiMail />,
+    href: "mailto:maria.shanjida07@gmail.com",
+  },
 ];
 
 // companies
@@ -264,12 +264,12 @@ export const contact = [
     icon: <FiMail />,
     title: "Have a question?",
     subtitle: "I am here to help you.",
-    description: "Email me at hello@youremail.com",
+    description: "Email me at maria.shanjida07@gmail.com",
   },
   {
     icon: <FiMapPin />,
     title: "Current Location",
-    subtitle: "Bucharest, Romania",
+    subtitle: "Dhaka, Bangladesh",
     description: "Serving clients worldwide",
   },
 ];

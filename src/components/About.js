@@ -36,10 +36,8 @@ const About = () => {
                 and try hard to fulfill my duties sincerely.
               </p>
             </div>
-            <button className="btn btn-md bg-accent hover:bg-secondary-hover transition-all">
-              <a href="https://www.linkedin.com/in/shanjidarahmanmaria/">
-                Contact Me
-              </a>
+            <button className="btn btn-md bg-accent text-primary hover:text-accent hover:bg-secondary-hover transition-all">
+              <a href="mailto:maria.shanjida07@gmail.com">Contact Me</a>
             </button>
           </div>
         </div>

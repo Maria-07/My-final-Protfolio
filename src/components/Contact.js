@@ -1,9 +1,34 @@
+import emailjs from "@emailjs/browser";
 import React from "react";
+import { toast } from "react-toastify";
 
 // import contact data
 import { contact } from "../data";
 
 const Contact = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevents default refresh by the browser
+    emailjs
+      .sendForm(
+        `service_oxolyqq`,
+        "template_9i0515t",
+        e.target,
+        "e-ERKG1TT9e2OsvUw"
+      )
+      .then(
+        (result) => {
+          console.log(result);
+          toast.dark(
+            "Message Sent, We will get back to you shortly",
+            result.text
+          );
+        },
+        (error) => {
+          toast.dark("An error occurred, Please try again", error.text);
+        }
+      );
+  };
+
   return (
     <section className="section bg-primary" id="contact">
       <div className="container mx-auto">
@@ -31,13 +56,27 @@ const Contact = () => {
               );
             })}
           </div>
-          <form className="space-y-8 w-full max-w-[780px]">
+          <form
+            onSubmit={handleSubmit}
+            className="space-y-8 w-full max-w-[780px]"
+          >
             <div className="flex gap-8">
-              <input className="input" type="text" placeholder="Your name" />
-              <input className="input" type="email" placeholder="Your email" />
+              <input
+                className="input"
+                name="name"
+                type="text"
+                placeholder="Your name"
+              />
+              <input
+                className="input"
+                type="email"
+                name="user_email"
+                placeholder="Your email"
+              />
             </div>
             <input className="input" type="text" placeholder="Subject" />
             <textarea
+              name="message"
               className="textarea"
               placeholder="Your message"
             ></textarea>

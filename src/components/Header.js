@@ -7,7 +7,7 @@ import Nav from "../components/Nav";
 import NavMobile from "../components/NavMobile";
 import Socials from "./Socials";
 
-const Header = () => {
+const Header = ({ page }) => {
   const [bg, setBg] = useState(false);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const Header = () => {
         </Link>
         {/* nav */}
         <div className="hidden lg:block">
-          <Nav />
+          <Nav page={page} />
         </div>
         {/* Socials */}
         <div className="hidden lg:block">

@@ -29,6 +29,20 @@ import Project4 from "./assets/img/projects/p4.webp.png";
 import Project5 from "./assets/img/projects/p5.webp.png";
 import Project6 from "./assets/img/projects/p6.webp.png";
 
+//project detail images
+import p1 from "./assets/img/PrrojectDetails/1.png";
+import p2 from "./assets/img/PrrojectDetails/2.png";
+import p3 from "./assets/img/PrrojectDetails/3.png";
+import p4 from "./assets/img/PrrojectDetails/4.png";
+import p5 from "./assets/img/PrrojectDetails/5.png";
+import p6 from "./assets/img/PrrojectDetails/6.png";
+import p7 from "./assets/img/PrrojectDetails/7.png";
+import p8 from "./assets/img/PrrojectDetails/8.png";
+import p9 from "./assets/img/PrrojectDetails/9.png";
+import p10 from "./assets/img/PrrojectDetails/10.png";
+import p11 from "./assets/img/PrrojectDetails/11.png";
+import p12 from "./assets/img/PrrojectDetails/12.png";
+
 // skills images
 import SkillImg1 from "./assets/img/skills/html5.png";
 import SkillImg2 from "./assets/img/skills/css3.png";
@@ -121,44 +135,87 @@ export const projectsData = [
   {
     id: "1",
     image: Project1,
+    img1: p1,
+    img2: p2,
+    img3: p3,
     name: "Axel Motors",
     category: "Full Stack",
     link: "https://alex-motors.web.app/",
+    description: `● This is a full-stack manufacturing website. Users need to log in via Email and Password or Google (also can create a new account). 
+    ● Have an admin and user dashboard. Admin can delete, add, and manage all services and normal users see all products & can order.  
+    ● Users can pay with their Credit cards for their products.`,
+    tools: `React js, React Route, Tailwind, MongoDB, ExpressJs, Nodejs, Private route, Firebase Authentication, Heroku.`,
+    clink: "https://github.com/Maria-07/Axel-Motors",
   },
   {
     id: "2",
     image: Project2,
+    img1: p4,
+    img2: p5,
+    img3: p6,
     name: "Spicy Velvet",
     category: "Full Stack",
     link: "https://spicy-velvet.web.app/",
+    description: `● This is a warehouse management website.
+● Users need to log in via Email and Password or Google (also can create a new account).
+● Users can manage products in the warehouse.
+`,
+    tools: `React js, React Route, Tailwind, MongoDB, ExpressJs, Nodejs, Private route, Firebase Authentication, Heroku.`,
+    clink: "https://github.com/Maria-07/Spicy-Velvet-Client-site",
   },
   {
     id: "3",
     image: Project3,
+    img1: p10,
+    img2: p11,
+    img3: p12,
     name: "TouchIt",
     category: "web development",
     link: "https://touchit-tech.netlify.app/",
+    description: `● This website is Single Page Application`,
+    tools: `React js, React Route, Tailwind.`,
+    clink: "https://github.com/Maria-07/Touch-It",
   },
   {
     id: "4",
     image: Project4,
+    img1: p7,
+    img2: p8,
+    img3: p9,
     name: "Emma Watson",
     category: "web development",
     link: "https://emma-watson-16f05.web.app/",
+    description: `● This is an Independent Service Provider website.
+● Users need to log in via Email and Password or Google (also can create a new account).
+`,
+    tools: `React js, React Route, Bootstrap, Tailwind, Private route, Firebase Authentication.`,
+    clink: "https://github.com/Maria-07/Independent-service-provider",
   },
   {
     id: "5",
     image: Project5,
+    img1: p1,
+    img2: p2,
+    img3: p3,
     name: "Bloom Beauty",
     category: "web development",
     link: "https://bloom-beauty.netlify.app/",
+    description: `● This is a full-stack manufacturing website. Users need to log in via Email and Password or Google (also can create a new account). ● Have an admin and user dashboard. Admin can delete, add, and manage all services and normal users see all products & can order.  ● Users can pay with their Credit cards for their products.`,
+    tools: `React js, React Route, Tailwind, MongoDB, ExpressJs, Nodejs, Private route, Firebase Authentication, Heroku.`,
+    clink: "https://github.com/Maria-07/Axel-Motors",
   },
   {
     id: "6",
     image: Project6,
+    img1: p1,
+    img2: p2,
+    img3: p3,
     name: "Eden Spring Event",
     category: "Web Design",
     link: "https://eden-spring-event.netlify.app/",
+    description: `● This is a full-stack manufacturing website. Users need to log in via Email and Password or Google (also can create a new account). ● Have an admin and user dashboard. Admin can delete, add, and manage all services and normal users see all products & can order.  ● Users can pay with their Credit cards for their products.`,
+    tools: `React js, React Route, Tailwind, MongoDB, ExpressJs, Nodejs, Private route, Firebase Authentication, Heroku.`,
+    clink: "https://github.com/Maria-07/Axel-Motors",
   },
 ];
 

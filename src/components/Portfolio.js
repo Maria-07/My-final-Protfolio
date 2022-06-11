@@ -12,18 +12,23 @@ const Portfolio = () => {
             My latest works
           </h2>
           <p className="subtitle">
-            <span className="text-accent font-medium">
-              My developer skills :{" "}
-            </span>
-            Comfortable: HTML, CSS, JavaScript, Bootstrap, Tailwind CSS,
-            DaisyUI, React Js, Firebase Authentication, Node js, Express Js,
-            MongoDB, Heroku.
-            <br /> <span className="text-accent font-medium">
-              Familiar :
-            </span>{" "}
-            React Native, Next js, Google Map, JWT, Stripe, MUI. <br />
-            <span className="text-accent font-medium"> Tools : </span>
-            Github, Chrome Dev Tool, Firebase, Netlify, Figma
+            <h4 className="text-accent font-medium text-2xl my-2">
+              My developer skills
+            </h4>
+            <p className=" text-left">
+              {" "}
+              <span className="text-accent font-medium">
+                <br /> Comfortable:{" "}
+              </span>
+              HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, DaisyUI, React Js,
+              Firebase Authentication, Node js, Express Js, MongoDB, Heroku.
+              <br /> <span className="text-accent font-medium">
+                Familiar :
+              </span>{" "}
+              React Native, Next js, Google Map, JWT, Stripe, MUI. <br />
+              <span className="text-accent font-medium"> Tools : </span>
+              Github, Chrome Dev Tool, Firebase, Netlify, Figma
+            </p>
           </p>
         </div>
         <Projects />
